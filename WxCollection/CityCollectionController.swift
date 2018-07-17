@@ -57,7 +57,7 @@ class CityCollectionController: UIViewController, UICollectionViewDataSource, UI
     }
     
     // custom function to generate a random UIColor
-    func randomColor() -> UIColor{
+    func randomColor() -> UIColor {
         let red = CGFloat(drand48())
         let green = CGFloat(drand48())
         let blue = CGFloat(drand48())
